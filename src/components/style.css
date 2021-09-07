@@ -1,0 +1,125 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+.card1{
+    width: 45vw;
+    margin: 2vw 4vw 3vw 3.5vw;
+    height: auto;
+}
+.card2{
+    width: 40vw;
+    margin-right: 3.5vw;
+    margin-top: 2vw;
+    height: auto;
+}
+.img{
+    margin: 0;
+    width:44.8vw;
+    height:60vh;
+}
+.button{
+    width: 6vw;
+    height: 4vw;
+}
+.button1{
+    width: 12vw;
+    height: 3.5vw;
+}
+.input{
+    width: 24vw;
+    text-align: right;
+    margin-left: 5vw;
+    margin-top: 1.5vw;
+}
+.heading{
+    text-align: center;
+}
+.margin{
+    margin-left: 5vw;
+}
+.marginb{
+    margin-bottom: 3vw;
+}
+
+@media screen and (max-width: 1024px){
+    .cont{
+        flex-direction: column;
+    }
+    .card1{
+        width: 90vw;
+        margin: 4vw 4vw 3vw 4.5vw;
+    }
+    .card2{
+        width: 90vw;
+        margin: 5vw 4vw 5vw 4.5vw;
+    }
+    .img{
+        width: 89.8vw;
+        height: 35vw;
+    }
+    .button{
+        width: 11vw;
+        height: 6.5vw;
+        font-size: 3.3vw;
+    }
+    .button1{
+        width: 22vw;
+        height: 6vw;
+        font-size: 3.3vw;
+    }
+    .input{
+        width: 44vw;
+        margin-left: 19vw;
+    }
+    .heading{
+        font-size: 7vw;
+    }
+    .margin{
+        margin-left: 19vw;
+    }
+    .mheading{
+        font-size: 5vw;
+    }
+    .mtext{
+        font-size: 2.5vw;
+        font-family: sans-serif;
+    }
+    .mbutton{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .card1{
+        margin-top: 5vw;
+    }
+    .card2{
+        margin-top: 4vw;
+    }
+    .img{
+        height: 45vw;
+    }
+    .button{
+        width: 14vw;
+        height: 8vw;
+    }
+    .button1{
+        width: 28vw;
+        height: 7.9vw;
+    }
+    .input{
+        width: 56vw;
+        margin-left: 8.5vw;
+        margin-top: -1vw;
+    }
+    .margin{
+        margin-left: 8.5vw;
+    }
+    .mheading{
+        font-size: 6vw;
+    }
+    .mtext{
+        font-size: 3vw;
+    }
+}
